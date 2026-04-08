@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      font-size: 13px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 12px;
+    }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #f97316 transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f97316;
+    border-radius: 20px;
+  }
+
+  /* TV Mode Global Styles */
+  body.tv-mode {
+    font-size: 1.5rem !important;
+  }
+
+  body.tv-mode * {
+    scrollbar-width: none !important;
+  }
+
+  body.tv-mode ::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  body.tv-mode .max-w-7xl {
+    max-width: 95vw !important;
+  }
+
+  body.tv-mode *:focus-visible,
+  body.tv-mode *:focus {
+    outline: 8px solid #f97316 !important;
+    outline-offset: 4px !important;
+    transform: scale(1.05) !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 100 !important;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5) !important;
+    background-color: white !important;
+    color: #111827 !important;
+  }
+}
+
+@layer utilities {
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fadeIn 0.3s ease-out;
+}

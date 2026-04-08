@@ -1,72 +1,88 @@
-# 🍳 CocinaViva
+# 🍳 CocinaViva v2.1.0 "Élite"
 
-**CocinaViva** no es solo una aplicación de recetas; es el compañero definitivo para los amantes de la gastronomía española y los usuarios de Thermomix. Desde el sabor tradicional de los guisos de la abuela hasta la precisión tecnológica de la cocina moderna, CocinaViva alimenta tanto tu cuerpo como tu alma.
+[![React](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF.svg)](https://vitejs.dev/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC.svg)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+**CocinaViva** es el ecosistema culinario más avanzado del mercado, diseñado específicamente para los entusiastas de la cocina tradicional española y los usuarios de Thermomix. No es solo una aplicación; es un asistente de cocina inteligente impulsado por IA que transforma tu experiencia culinaria desde la planificación hasta el emplatado.
 
 ---
 
-## 🌟 Características Principales
+## 🚀 Innovaciones Destacadas (v2.1.0)
 
-### 🥘 El Recetario más Completo
-*   **+2,450 Recetas:** Una vasta colección que abarca desde platos tradicionales hasta innovaciones contemporáneas.
-*   **Especialista en Thermomix:** Más de 450 recetas adaptadas específicamente para Thermomix, con tiempos, temperaturas y velocidades exactas.
-*   **Diversidad Regional:** Explora la riqueza culinaria de las 20 regiones de España e influencias internacionales.
+Hemos llevado a CocinaViva al siguiente nivel con tres funcionalidades revolucionarias:
 
-### 🚀 Tecnología al Servicio del Sabor
-*   **Buscador Inteligente:** Filtra por ingredientes, dificultad, tiempo, región o tipo de cocina.
-*   **Modo Chef TV:** Instrucciones visuales paso a paso con vídeos tutoriales integrados (Powered by SideChef).
-*   **Planificador con IA:** Organiza tus menús semanales de forma inteligente y genera listas de la compra automáticas.
-*   **Integración con Bring!:** Exporta tus ingredientes directamente a tu lista de la compra familiar.
+1.  **📦 Control de Inventario Inteligente:** Gestiona automáticamente los ingredientes que tienes en tu despensa y recibe alertas de caducidad.
+2.  **🌿 Modo Cocina Zero Waste:** Algoritmos avanzados que sugieren recetas basadas exclusivamente en lo que tienes para minimizar el desperdicio.
+3.  **📸 Realidad Aumentada (AR) para Emplatado:** Visualiza el emplatado perfecto en 3D sobre tu mesa antes de empezar a cocinar.
 
-### ♿ Accesibilidad y Personalización
-*   **Ajustes Infinitos:** Más de 80 ajustes de personalización, incluyendo modo oscuro, tipografía ajustable (4 tamaños) y temas visuales.
-*   **Cocina Sin Manos:** Controla la app mediante gestos de cámara o comandos de voz para no manchar tu dispositivo.
-*   **Diseño Inclusivo:** Modos para daltonismo, soporte para lectores de pantalla mejorado y fuentes para dislexia.
+---
 
-### 🏆 Gamificación y Comunidad
-*   **Sistema de Logros:** Más de 280 logros desbloqueables para motivarte a explorar nuevas técnicas y sabores.
-*   **Cooksnaps:** Comparte fotos de tus resultados y conecta con una comunidad vibrante de cocineros.
-*   **Reseñas Verificadas:** Opiniones reales de usuarios que han probado y validado cada receta.
+## 🌟 Características de Élite
+
+### 🥘 El Recetario Definitivo
+*   **+2,450 Recetas Profesionales:** Desde guisos ancestrales hasta alta cocina contemporánea.
+*   **Especialista en Thermomix:** Más de 450 guías ultra-detalladas con tiempos, temperaturas y velocidades exactas de robot.
+*   **Diversidad Geográfica:** Recetario completo de las 20 regiones de España e integración internacional.
+
+### 🤖 Tecnología y UX de Vanguardia
+*   **Modo Chef TV (SideChef Integration):** Instrucciones visuales de calidad cinematográfica en formato paso a paso.
+*   **Control Sin Manos:** Avanza en tus recetas mediante gestos de cámara o comandos de voz avanzados.
+*   **Buscador Semántico:** Filtros profesionales por ingredientes, dificultad, tiempo, región y alérgenos.
+*   **Integración con Bring!:** Sincronización familiar en tiempo real para listas de la compra.
+
+### ♿ Accesibilidad Radical y Personalización
+*   **85+ Ajustes de Aplicación:** Personalización total de la interfaz, rendimiento y seguridad.
+*   **Inclusión Total:** Modos de alto contraste, tipografía ajustable (4 niveles), soporte para dislexia y modo daltonismo avanzado.
+*   **Modo Invitados:** Protege tu privacidad ocultando tus estadísticas mientras compartes tu pasión por la cocina.
+
+### 🏆 Gamificación Extrema
+*   **380 Logros Desbloqueables:** Un sistema de progresión robusto que premia tu maestría en la cocina.
+*   **Comunidad Cooksnaps:** El "Instagram" de la cocina real. Valora, comenta y comparte tus éxitos visuales.
 
 ---
 
 ## 📊 Estadísticas del Proyecto
 
-| Categoría | Detalle |
+| Categoría | Valor Actual |
 | :--- | :--- |
 | **Total Recetas** | 2,450+ |
 | **Recetas Thermomix** | 450+ |
-| **Categorías** | 20 (Entrantes, Arroces, Postres, etc.) |
-| **Logros** | 280+ |
-| **Ajustes de Perfil** | 30+ |
-| **Funciones Beta** | 11+ (IA, Streaming, Colaborativo) |
+| **Logros** | 380 |
+| **Ajustes Personalizables** | 115+ (App + Perfil) |
+| **Funcionalidades** | 24+ |
+| **Versión** | 2.1.0 ESTABLE |
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-CocinaViva utiliza las tecnologías más punteras para ofrecer una experiencia fluida y rápida:
+CocinaViva está construida sobre los cimientos más sólidos y modernos del desarrollo web:
 
-*   **Frontend:** [React 19](https://react.dev/)
-*   **Herramienta de Construcción:** [Vite 7](https://vitejs.dev/)
-*   **Estilos:** [Tailwind CSS 4](https://tailwindcss.com/)
-*   **Iconografía:** [Lucide React](https://lucide.dev/)
-*   **Lenguaje:** TypeScript
-
----
-
-## 💎 Planes y Suscripciones
-
-1.  **Básico:** Acceso a 500 recetas y funciones esenciales. Gratis para siempre.
-2.  **Ultra:** 800 recetas, sin publicidad, modo Thermomix completo y acceso anticipado.
-3.  **Master Chef:** La experiencia total. 1,000+ recetas, filtros IA, asistente de voz y soporte prioritario.
+*   **Core:** [React 19](https://react.dev/) (Concurrent Mode & Server Components ready)
+*   **Build Tool:** [Vite 7](https://vitejs.dev/) para tiempos de carga ultrarrápidos.
+*   **Styling:** [Tailwind CSS 4](https://tailwindcss.com/) con diseño atómico.
+*   **Iconos:** [Lucide React](https://lucide.dev/)
+*   **Lenguaje:** [TypeScript](https://www.typescriptlang.org/) para un desarrollo seguro y escalable.
 
 ---
 
-## 📬 Contacto y Soporte
+## 💎 Planes de Suscripción
 
-¿Tienes dudas, sugerencias o simplemente quieres compartir un truco de cocina?
+1.  **Plan Básico:** Acceso a 500 recetas y funciones sociales esenciales. **Gratis**.
+2.  **Plan Ultra:** 800 recetas, modo Thermomix completo, sin publicidad y acceso anticipado.
+3.  **Plan Master Chef:** La joya de la corona. 1,000+ recetas, filtros IA, asistente de voz premium y soporte 24/7.
+
+---
+
+## 📬 Contacto y Soporte Profesional
+
+Para consultas comerciales, soporte técnico o colaboraciones:
 
 *   **Email:** [iiiribasu2010@gmail.com](mailto:iiiribasu2010@gmail.com)
 *   **GitHub:** [@cocinaviva](https://github.com/cocinaviva)
 
-Hecho con ❤️ para los amantes de la buena mesa.
+---
+
+Hecho con precisión y pasión por amantes de la cocina para amantes de la cocina. © 2026 CocinaViva.
